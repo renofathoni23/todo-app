@@ -23,12 +23,12 @@ const Todo = () => {
             setAlertMessage(true);
         }
         else{
-            let newData = {
+            let newItem = {
                 id: Math.random(),
                 title: input,
                 isDone: false,
             };
-            data.splice(0,0,newData)
+            data.splice(0,0,newItem)
             setInput('');
             setIsVisible(!isVisible);
             setAlertMessage(false)
