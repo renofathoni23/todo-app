@@ -1,0 +1,29 @@
+$white: #FFFFFF;
+$stone700: #44403C;
+
+@mixin phone{
+    @media (max-width: 599px) { @content;}
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 112px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: $white;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+    @include phone{
+        padding: 0;
+        width: 97%;
+    }
+
+    &__Text{
+        font-size: 14px;
+        font-weight: 500;
+        color: $stone700;
+    }
+}
