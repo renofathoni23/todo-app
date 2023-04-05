@@ -1,5 +1,5 @@
 # Todo List APP
-Tech used: React js
+Tech used: React js\
 Improvment: Mobile Responsive (just for phone)
 
 # Getting Started with Create React App
