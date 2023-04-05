@@ -1,3 +1,7 @@
+# Todo List APP
+Tech used: React js
+Improvment: Mobile Responsive (just for phone)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
